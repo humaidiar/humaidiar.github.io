@@ -1,0 +1,241 @@
+body{
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+section.hero{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+section.hero h1{
+  font-size: 3rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.05rem;
+}
+
+p.subhead{
+  font-size: 1rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 0.1rem;
+}
+
+.logo{
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+}
+
+.logo span{
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 0.015rem;
+}
+
+
+.bar{ /* Menu Bar setting*/
+  width: 3em;
+  margin-top: -.6em;
+  cursor: pointer;
+}
+
+.close{
+  float: right;
+  margin: 2em;
+}
+
+nav{
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  width: 50%;
+  z-index: 2;
+  text-transform: uppercase;
+  transform: translate(100%);
+  /*transition: transform.-5s ease-in-out;*/
+
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a{
+  padding: .75em 2em;
+  display: block;
+  color: black;
+  
+}
+
+#banner{
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+.gunung{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.2em;
+}
+
+#links-list {
+  margin: 3em auto;
+ }
+
+.the-bar{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.the-bar button{
+  background-color: transparent;
+  border: 0.1em solid black;
+  border-radius: 1em;
+  cursor: pointer;
+  padding: 0.5em 1.2em;
+  margin: 0.4em 0.2em;
+  letter-spacing: 0.05em;
+}
+
+.the-bar p{
+  font-weight: bold;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  margin: 3em auto;
+  text-align: center;
+}
+footer p{
+  font-size: 0.75em;
+}
+
+@media only screen and (min-width: 320px){
+  
+  section.hero h1{
+    font-size: 2.8rem;
+  }
+  
+  p.subhead{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media only screen and (min-width: 768px){
+
+  section.hero h1{
+    font-size: 3rem;
+  }
+  
+  p.subhead{
+    font-size: 1rem;
+  }
+
+  .gunung{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.2em;
+  }
+  
+
+  .bar{ /* the menu.svg is dissepeared*/
+    display: none;
+  }
+  nav{
+    transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  .close{ /* the close.svg is dissepeared*/
+    display: none;
+  }
+
+  nav ul{
+    display: flex;
+    margin: 0;
+  }
+
+  nav ul a{
+    padding: 0.2em 2em;
+    font-size: .9rem;
+    letter-spacing: 0.05em;
+  }
+  
+  }
+
+
+@media only screen and (min-width: 1200px){
+  
+
+  .wrapper{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  #banner{
+    margin-top:1em;
+    margin-bottom: 1.5em;
+  }
+
+  .gunung{
+    margin-top: 0;
+  }
+  section.hero{
+    display: flex;
+    width: 80%;
+    height: 30vh;
+    text-align: left;
+    margin-bottom: 2em;
+    
+    
+  } 
+
+  section.hero h1{
+    padding: 1em 1em 1em 0em;
+  }
+  p.subhead{
+    padding-top: 10em;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
