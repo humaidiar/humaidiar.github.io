@@ -6,11 +6,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,800&display=swap" rel="stylesheet">
-    <link href="style/main.css" rel="stylesheet" type="text/css">
-    <title>HTML-CSS</title>
-
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <title>ID vs Class</title>
   </head>
   <body>
+    <div class="wrapper">
+      <header>
+        <a href="https://humaidiar.github.io/" class="logo">Code. <span>Journal</span></a>
+        <nav>
+            <img class= "close" src="../img/x-close.svg" alt="close-bar" width="35" height="35">
+          <ul>
+            <li><a href="https://humaidiar.github.io/">Home</a></li>
+          </ul>
+        </nav>
+         <img class="bar" src="../img/home.svg" alt="menu-bar">
+      </header> 
+
+      <section >
+        <div class="text-container">
+            <p class="title-text">ID vs Class Selectors in CSS</p>
+          <div class="long-text">
+            <br>
+            <p class="question">
+              Class and ID selectors in CSS are used to identify various HTML elements. Both selectors can represent the same HTML element differently, depending on its Class or ID. 
+            </p>
+            <p>
+              Classes are used when you want to apply styles to multiple HTML elements in one HTML document or even different HTML documents.You can make your own consistent style across HTML documents. For instance. you can use the same Class on multiple elements and use multiple classes on the same element. Therefore, Classes are not unique.
+            </p>
+            <p>
+              IDs are only used when one element on the HTML document should have a particular style applied to it. Each HTML element that you created can have only one ID and each HTML page can have only one element with that ID. On the other hand, IDs can be used as hyperlink, where you can jump from one place to another on the same web page. Therefore, ID;s are unique.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
 
   </body>
+  <footer>
+    <p>Code.Journal Website by <span style="font-weight: bold;">Humaidi Ridwan</span> - 2023</p>
+  </footer>
 </html>

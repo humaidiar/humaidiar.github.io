@@ -8,6 +8,7 @@ p{
   font-weight: 400;
   font-size: 0.9rem;
   letter-spacing: 0.015rem;
+  line-height: 1.8rem;
 }
 
 .text-container{
@@ -17,7 +18,8 @@ p{
 
 p.title-text{
   font-weight:700;
-  font-size: 2.3rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 p.question{
