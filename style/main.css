@@ -6,7 +6,7 @@ body{
 
 p{
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 0.015rem;
 }
 
@@ -138,7 +138,7 @@ nav ul a{
   padding: 0.5em 1.2em;
   margin: 0.4em 0.2em;
   letter-spacing: 0.08em;
-  font-weight: 500;
+  color: black;
 }
 
 .the-bar p{
@@ -148,6 +148,7 @@ nav ul a{
 
 .the-bar a{
   font-size: 0.1rem;
+
 }
 
 footer{
