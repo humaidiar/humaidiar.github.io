@@ -6,12 +6,12 @@ body{
 
 p{
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.015rem;
 }
 
 .text-container{
-  width:80%;
+  width:90%;
   margin: 8em auto;
 }
 
@@ -270,5 +270,9 @@ footer p{
       padding: 0.5em 1.2em;
       margin: 0.4em 0.2em;
 
+  }
+
+  p{
+    font-size: 1rem;
   }
 }
