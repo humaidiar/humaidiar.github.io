@@ -226,6 +226,17 @@ footer p{
   p.subhead{
     padding-top: 10em;
   } 
+
+  #links-list {
+    height: 25vh;
+
+   }
+
+   .the-bar button{
+      font-size: 10em;
+      padding: 0.5em 1.2em;
+      margin: 0.4em 0.2em;
+
 }
 
 
