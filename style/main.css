@@ -8,6 +8,7 @@ body{
 .dom-blog{
   max-width: 100%;
   height: auto;
+  overflow: hidden;
 
 }
 
@@ -140,6 +141,7 @@ nav ul a{
   text-align: center;
 }
 
+
 .the-bar button{
   background-color: transparent;
   border: 0.1em solid black;
@@ -157,7 +159,7 @@ nav ul a{
 }
 
 .the-bar a{
-  font-size: 0.1rem;
+  font-size: 0.12rem;
 
 }
 
