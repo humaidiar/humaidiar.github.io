@@ -1,51 +1,174 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humaidi Ridwan</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,800&display=swap" rel="stylesheet">
-    <link href="style/main.css" rel="stylesheet" type="text/css">
-    <title>Humaidi Ridwan</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <a href="https://humaidiar.github.io/" class="logo">Code. <span>Journal</span></a>
-        <nav>
-            <img class= "close" src="img/x-close.svg" alt="close-bar" width="35" height="35">
-          <ul>
-            <li><a href="https://humaidiar.github.io/">Home</a></li>
-          </ul>
-        </nav>
-         <img class="bar" src="img/home.svg" alt="menu-bar">
-      </header> 
-      <div id="banner">
-          <img class="gunung" src="img/gunung.png" alt="gunung">
-          <section class="hero">
-            <h1>Welcome to my coding journal.</h1>
-             <p class="subhead">Thank you for visiting my coding journal website. I will put any updates regarding on my coding study progress in DevAcademy. 
-              Keep on your eyes on my website for the latest update.</p>
-          </section>
-      </div>
-      <div id="links-list">
-          <div class="the-bar">
-              <p>Check my blogs</p>
-              <a href="blog/learning-plan.html" style="color:black"><button>Learning Plan</button></a>
-              <a href="blog/identity-values.html" style="color:black"><button>Identity Values</button></a>
-              <a href="blog/html-css.html" style="color:black"><button>HTML-CSS</button></a>
-              <a href="blog/te-houtaewa-template.html" style="color:black"><button>Te Houtaewa</button></a>
-              <a href="blog/emotional-intelligence.html" style="color:black"><button>EQ Exploration</button></a>
-              <a href="blog/javascript-dom.html" style="color:black"><button>JS-DOM</button></a>
-              <a href="blog/neuroplasticity.html" style="color:black"><button>Neuroplasticity</button></a>
-              <a href="blog/problem-solving.html" style="color:black"><button>Problem Solving</button></a>
-              <a href="blog/foundation-reflection.html" style="color:black"><button>Foundation</button></a>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <main class="main-homepage">
+
+        <!-- Header -->
+        <header class="header-area">
+            <div class="container">
+                <div class="gx-row d-flex align-items-center justify-content-between">
+                    <a href="./index.html" class="logo">
+                       <h1 style="color:White; font-size: 22px" >Humaidi Ridwan</h1>
+                    </a>
+
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="works.html">Works</a></li>
+                           
+                        </ul>
+                       
+                    </nav>
+
+                  
+
+                    <div class="show-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About -->
+        <section class="about-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6" data-aos="zoom-in">
+                      <div class="about-me-box shadow-box h-full">
+                          <div class="infos">
+                               <h4>Full Stack Developer</h4>
+                            <h1>Humaidi Ridwan</h1>
+                            <p>I am a Full Stack Developer based in Wellington, New Zealand</p>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-6">
+                      <div class="about-credentials-wrap">
+                          <div class="gx-row d-flex gap-24">
+                              <div data-aos="zoom-in">
+                                  <div class="about-crenditials-box info-box shadow-box h-full">
+                                      <a class="overlay-link" href="./about.html"></a>
+                                      <div class="img-box mb-24">
+                                        <img src="./assets/images/fingerprints.png" alt="Biometric" class="box-radius img-size">
+                                    </div>
+                                      <div class="d-flex align-items-center justify-content-between">
+                                          <div class="infos">
+                                              <h4>more about me</h4>
+                                              <h1>Credentials</h1>
+                                          </div>
+  
+                                          <a href="./about.html" class="about-btn">
+                                              <img src="./assets/images/icon.svg" alt="Button">
+                                          </a>
+  
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div data-aos="zoom-in">
+                                  <div class="about-project-box info-box shadow-box h-full">
+                                      <a class="overlay-link" href="./works.html"></a>
+                                      <div class="img-box mb-24">
+                                        <img src="./assets/images/boxes.png" alt="project" class="box-radius img-size">
+                                    </div>
+                                      <div class="d-flex align-items-center justify-content-between">
+                                          <div class="infos">
+                                              <h4>SHOWCASE</h4>
+                                              <h1>Projects</h1>
+                                          </div>
+  
+                                          <a href="#" class="about-btn">
+                                              <img src="./assets/images/icon.svg" alt="Button">
+                                          </a>
+  
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Section 2 -->
+
+              <div class="row mt-24">
+                  <div class="col-md-4" data-aos="zoom-in">
+                          <div class="about-profile-box info-box shadow-box h-full">
+                            <div class="inner-profile-icons ">
+                              <a href="https://www.linkedin.com/in/humaidiar/" target=”_blank”>
+                                  <i class="iconoir-linkedin"></i>
+                              </a>
+                              <a href="https://github.com/humaidiar" target=”_blank”>
+                                  <i class="iconoir-github"></i>
+                              </a>
+                              <a href="https://www.instagram.com/doshotz/" target=”_blank”>
+                                <i class="iconoir-instagram"></i>
+                            </a>
+                          </div>
+                          <div class="d-flex align-items-center justify-content-between">
+                              <div class="infos">
+                                  <h4>Stay with me</h4>
+                                  <h1>Profiles</h1>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-8" data-aos="zoom-in">
+                      <div class="about-contact-box info-box shadow-box h-full">
+                          <a class="overlay-link" href="mailto:humaidiar123@gmail.com"></a>
+                          <h1>Let's <br>work <span>together.</span></h1>
+                          <a href="#" class="about-btn">
+                              <img src="./assets/images/icon.svg" alt="Button">
+                          </a>
+                      </div>
+
+                  </div>
+              </div>
           </div>
-      </div>
-    </div>
-  </body>
-  <footer>
-    <p>Code.Journal Website by <span style="font-weight: bold;">Humaidi Ridwan</span> - 2023</p>
-  </footer>
+      </section>
+
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-content text-center">
+                    <p class="copyright">
+                        <span>Humaidi Ridwan</span> Personal Website
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    
+
+    <script src="./assets/js/jquery-3.6.4.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
 </html>
